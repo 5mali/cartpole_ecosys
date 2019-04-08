@@ -1,0 +1,25 @@
+    
+
+	ECO_C2: No striping
+ECO_C: Reduced Granularity, Predetermined striping
+
+    ECO_B2: No striping
+    ECO_B1 : Learning at Actor XX[scehduling used]
+
+ECO_B: CHECKPOINT
+    STRIPING AT ACTOR
+    T_GAMMA = 0.95
+    NN_GAMMA = 0.9
+    MAX_NN_ITERATIONS = 7000
+    T_EPSILON is low for first 3 iterations
+    Changed POLE_VEL_ABS_MAX to +/- 6
+
+ECO_A:
+    CHECKPOINT 1 
+    20 Nodes x 200episodes
+    POLE LENGTH = 0.5 +/- 0.3
+    Dueling Double DQN
+    MEMORY = 100000 + 100000
+    NO Tabular Learning
+    GRANULARITY = 30 , 15
+    
