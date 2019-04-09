@@ -1,6 +1,8 @@
     ECO_C2: No striping
 ECO_C: Reduced Granularity, Predetermined striping
-
+    
+    ECO_B5: Using RawArray
+    ECO_B4: Without saving Q-file
     ECO_B3: Faster Discretization
     ECO_B2: No striping
     ECO_B1 : Learning at Actor XX[scehduling used]
