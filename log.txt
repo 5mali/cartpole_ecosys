@@ -1,4 +1,6 @@
-	ECO_C2: No striping
+ECO_D:
+
+    ECO_C2: No striping
     ECO_C-long: Quantization @ SERVER
 ECO_C: Reduced Granularity, Predetermined striping
 

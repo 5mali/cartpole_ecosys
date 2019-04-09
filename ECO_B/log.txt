@@ -1,7 +1,14 @@
+
+ECO_D: CHECKPOINT
+        Predetermind striping limits
+        10 NODES x 200 EP
+        
+
     ECO_C2: No striping
 ECO_C: Reduced Granularity, Predetermined striping
     
-    ECO_B5: Using RawArray
+    ECO_B5: Using RawArray and float32 - dosen't help
+    ECO_B4_f32: Using float32
     ECO_B4: Without saving Q-file
     ECO_B3: Faster Discretization
     ECO_B2: No striping
