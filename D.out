@@ -1,0 +1,33 @@
+slurmstepd-knm005: error: *** STEP 169138.0 ON knm005 CANCELLED AT 2019-04-09T23:18:55 ***
+slurmstepd-knm005: error: *** JOB 169138 ON knm005 CANCELLED AT 2019-04-09T23:18:55 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm006: error: *** STEP 169139.0 ON knm006 CANCELLED AT 2019-04-09T23:18:57 ***
+slurmstepd-knm006: error: *** JOB 169139 ON knm006 CANCELLED AT 2019-04-09T23:18:57 ***
+slurmstepd-knm007: error: *** JOB 169140 ON knm007 CANCELLED AT 2019-04-09T23:18:59 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm007: error: *** STEP 169140.0 ON knm007 CANCELLED AT 2019-04-09T23:18:59 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm000: error: *** STEP 169141.0 ON knm000 CANCELLED AT 2019-04-09T23:19:01 ***
+slurmstepd-knm000: error: *** JOB 169141 ON knm000 CANCELLED AT 2019-04-09T23:19:01 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm004: error: *** JOB 169142 ON knm004 CANCELLED AT 2019-04-09T23:19:06 ***
+slurmstepd-knm004: error: *** STEP 169142.0 ON knm004 CANCELLED AT 2019-04-09T23:19:06 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm001: error: *** JOB 169143 ON knm001 CANCELLED AT 2019-04-09T23:19:09 ***
+slurmstepd-knm001: error: *** STEP 169143.0 ON knm001 CANCELLED AT 2019-04-09T23:19:09 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm000: error: *** JOB 169151 ON knm000 CANCELLED AT 2019-04-09T23:19:13 ***
+slurmstepd-knm000: error: *** STEP 169151.0 ON knm000 CANCELLED AT 2019-04-09T23:19:13 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm001: error: *** STEP 169152.0 ON knm001 CANCELLED AT 2019-04-09T23:19:14 ***
+slurmstepd-knm001: error: *** JOB 169152 ON knm001 CANCELLED AT 2019-04-09T23:19:14 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm002: error: *** STEP 169153.0 ON knm002 CANCELLED AT 2019-04-09T23:19:15 ***
+slurmstepd-knm002: error: *** JOB 169153 ON knm002 CANCELLED AT 2019-04-09T23:19:15 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm003: error: *** JOB 169154 ON knm003 CANCELLED AT 2019-04-09T23:19:17 ***
+slurmstepd-knm003: error: *** STEP 169154.0 ON knm003 CANCELLED AT 2019-04-09T23:19:17 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm004: error: *** JOB 169177 ON knm004 CANCELLED AT 2019-04-09T23:19:23 ***
+slurmstepd-knm004: error: *** STEP 169177.0 ON knm004 CANCELLED AT 2019-04-09T23:19:23 ***
