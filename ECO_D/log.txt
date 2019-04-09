@@ -1,0 +1,14 @@
+
+
+ECO_D: 
+    Uses FP16
+    With individualized striping
+
+ECO_D0: 
+    Uses FP16
+    No individulaized striping
+
+ECO_D00:
+    Uses FP16
+    Equivalent to ECO_B_f32
+    BUG!!!! -> Discretization is done improperly.
