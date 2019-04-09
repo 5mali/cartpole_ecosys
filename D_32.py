@@ -99,7 +99,7 @@ T_GAMMA        = 0.99
 T_EPSILON      = 0.98
 
 NO_OF_NODES    = 10
-NO_OF_EPISODES = 200 
+NO_OF_EPISODES = 3
 TIMESTEP_LIMIT = 200
 
 # print("Number of NODES: ", NO_OF_NODES)
@@ -122,7 +122,7 @@ MIN_MEMORY_CAP      = 100000
 # In[10]:
 
 
-MAX_NO_OF_ITERATIONS = 30 
+MAX_NO_OF_ITERATIONS = 3
 MAX_NN_ITERATIONS    = 7000
 # print("Number of ITERATIONS: ",MAX_NO_OF_ITERATIONS)
 
@@ -204,7 +204,7 @@ class D3QN(object):
     def get_qvals(self,x):
         x = torch.unsqueeze(torch.FloatTensor(x), 0)
         actions_value = self.eval_net.forward(x)
-        actions_value = actions_value.data.numpy().astype(np.float16)
+        actions_value = actions_value.data.numpy().astype(np.float32)
         return actions_value
 
     def learn(self):
@@ -272,8 +272,8 @@ LENGTH_ABS_MIN = 0.375
 
 
 # SET GRANULARITY
-HI_GRAIN = 40
-LO_GRAIN = 10
+HI_GRAIN = 10
+LO_GRAIN = 5
 # print("HI_GRAIN = ", HI_GRAIN)
 # print("LO_GRAIN = ", LO_GRAIN)
 
@@ -430,7 +430,7 @@ init_state_combinations = ndim_grid([C_POS_ABS_MIN, C_VEL_ABS_MIN, P_ANG_ABS_MIN
 # GET Q-VALUES 
 # start = timeit.default_timer()
 # %memit 
-init_q_table = dqn.get_qvals(init_state_combinations).reshape(HI_GRAIN , HI_GRAIN , HI_GRAIN , HI_GRAIN , LO_GRAIN*NO_OF_NODES , -1).astype(np.float16)
+init_q_table = dqn.get_qvals(init_state_combinations).reshape(HI_GRAIN , HI_GRAIN , HI_GRAIN , HI_GRAIN , LO_GRAIN*NO_OF_NODES , -1).astype(np.float32)
 # stop = timeit.default_timer()
 # print("Quantization TIME: ", np.round((stop-start)/60,2), "minutes")
     
@@ -635,7 +635,7 @@ while iteration < MAX_NO_OF_ITERATIONS:
 #     start = timeit.default_timer()
     # GET Q-VALUES 
 #     %memit 
-    node_q_table = best_dqn.get_qvals(init_state_combinations).reshape(HI_GRAIN , HI_GRAIN , HI_GRAIN , HI_GRAIN , LO_GRAIN*NO_OF_NODES , -1).astype(np.float16)
+    node_q_table = best_dqn.get_qvals(init_state_combinations).reshape(HI_GRAIN , HI_GRAIN , HI_GRAIN , HI_GRAIN , LO_GRAIN*NO_OF_NODES , -1).astype(np.float32)
 
     # SAVE QFILE
 #     np.save(node_QFILE, node_q_table)
