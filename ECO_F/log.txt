@@ -34,6 +34,6 @@ BASE_0Fd:
     NO SEGREGATION
     Rewards = +/- 50
     
-BASE_0Fe: 
+BASE_0Fe: OK
     NO SEGREGATION
     Rewards = +/- 20
