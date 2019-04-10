@@ -1,28 +1,21 @@
-dist_BASE_0F:
+dist_BASE_0Fa:
+    NN_LR = 1e-5
     10Nx100ep
     MIN_MEM_CAP = 300,000
-    NN_ITER = 15000
+    NN_ITER = 15,000
+    NO SEGREGATION
+    REWARDS = +/- 10
+    Different action bias
+
+dist_BASE_0F: OK
+    NN_LR = 1e-4
+    10Nx100ep
+    MIN_MEM_CAP = 300,000
+    NN_ITER = 15,000
     NO SEGREGATION
     REWARDS = +/- 10
     Different action bias
 ****************************
-BASE_Fc:XXX
- TARGET_ITERATION = 100
- SEGREGATION =0.1
-
-BASE_Fb:XXX
- TARGET_ITERATION = 100
- SEGREGATION =0.7
- 
-BASE_Fa:OK
- TARGET_ITERATION = 100
- SEGREGATION =0.3
- 
-BASE_F: OK
- TARGET_ITERATION = 100
- SEGREGATION =0.5
- 
-**************************
 
 BASE_0Fb: OK @ 8K
     NO SEGREGATION
@@ -47,6 +40,25 @@ BASE_0Fd: XXX
 BASE_0Fc: OK @ 5.5K
     NO SEGREGATION
     Rewards = +/- 100
-    
+***************************
+
+BASE_Fc:XXX
+ TARGET_ITERATION = 100
+ SEGREGATION =0.1
+
+BASE_Fb:XXX
+ TARGET_ITERATION = 100
+ SEGREGATION =0.7
+ 
+BASE_Fa:OK
+ TARGET_ITERATION = 100
+ SEGREGATION =0.3
+ 
+BASE_F: OK
+ TARGET_ITERATION = 100
+ SEGREGATION =0.5
+**************************
+
+
 
     
