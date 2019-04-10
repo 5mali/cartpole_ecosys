@@ -4,7 +4,6 @@ dist_BASE_0F:
     NN_ITER = 15000
     NO SEGREGATION
     REWARDS = +/- 10
-    TARGET REPLACE = 500
     Different action bias
 ****************************
 BASE_Fc:XXX
