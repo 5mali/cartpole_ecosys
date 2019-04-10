@@ -39,7 +39,7 @@ BATCH_SIZE          = 32
 LR                  = 1e-4  # learning rate
 EPSILON             = 0.9   # greedy policy
 GAMMA               = 0.9   # reward discount
-TARGET_REPLACE_ITER = 100   # target update frequency
+TARGET_REPLACE_ITER = 200   # target update frequency
 MEMORY_CAPACITY     = 100000
 TERMINAL_BIAS       = 0.5   # no. of terminal memories in batch
 
@@ -219,11 +219,11 @@ for i_episode in range(NO_OF_EPISODES):
     #if minimum of episode length of last 100 episodes is equal to or greater than upgrade_metric=195
     if time_rec[-100:].min() >= SOLVE_METRIC:
         SOLVE = True
-        print("SEED: ",seed, "SUCCESS @ EP: ", i_episode )
+        print("SEED:",seed,"REWARD:",REWARD, "SUCCESS @ EP: ", i_episode )
         break
 
 if not SOLVE:
-    print("SEED: ",seed, "FAILURE")
+    print("SEED:",seed,"REWARD:",REWARD, "FAILURE")
 
 
 # In[ ]:
