@@ -1,0 +1,20 @@
+OMP: Warning #190: Forking a process while a parallel region is active is potentially unsafe.
+OMP: Warning #190: Forking a process while a parallel region is active is potentially unsafe.
+OMP: Warning #190: Forking a process while a parallel region is active is potentially unsafe.
+OMP: Warning #190: Forking a process while a parallel region is active is potentially unsafe.
+OMP: Warning #190: Forking a process while a parallel region is active is potentially unsafe.
+OMP: Warning #190: Forking a process while a parallel region is active is potentially unsafe.
+OMP: Warning #190: Forking a process while a parallel region is active is potentially unsafe.
+OMP: Warning #190: Forking a process while a parallel region is active is potentially unsafe.
+OMP: Warning #190: Forking a process while a parallel region is active is potentially unsafe.
+OMP: Warning #190: Forking a process while a parallel region is active is potentially unsafe.
+OMP: Warning #190: Forking a process while a parallel region is active is potentially unsafe.
+OMP: Warning #190: Forking a process while a parallel region is active is potentially unsafe.
+slurmstepd-p101: error: Step 169499.0 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-p101: error: Job 169499 hit memory limit at least once during execution. This may or may not result in some failure.
+srun: error: p101: task 0: Out Of Memory
+slurmstepd-p101: error: Job 169499 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-p102: error: Step 169504.0 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-p102: error: Job 169504 hit memory limit at least once during execution. This may or may not result in some failure.
+srun: error: p102: task 0: Out Of Memory
+slurmstepd-p102: error: Job 169504 hit memory limit at least once during execution. This may or may not result in some failure.
