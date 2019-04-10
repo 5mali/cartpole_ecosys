@@ -1,3 +1,8 @@
+BASE_F1: 
+    TARGET REPLACE @ 500
+    NO SEGREGATION
+    Rewards = +/- 10
+**************************
 dist_BASE_0F:
     10Nx100ep
     MIN_MEM_CAP = 300,000
