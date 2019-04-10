@@ -1,12 +1,16 @@
-BASE_Fb:
+BASE_Fc:XXX
+ TARGET_ITERATION = 100
+ SEGREGATION =0.1
+
+BASE_Fb:XXX
  TARGET_ITERATION = 100
  SEGREGATION =0.7
  
-BASE_Fa:
+BASE_Fa:OK
  TARGET_ITERATION = 100
  SEGREGATION =0.3
  
-BASE_F:
+BASE_F: OK
  TARGET_ITERATION = 100
  SEGREGATION =0.5
  
@@ -14,10 +18,22 @@ BASE_0F:
     NO SEGREGATION
     Rewards = +/- 10
     
-BASE_0Fa:
+BASE_0Fa: XXX
     NO SEGREGATION
     Rewards = +/- 5
 
-BASE_0Fb:
+BASE_0Fb: XXX
     NO SEGREGATION
     Rewards = +/- 2
+   
+BASE_0Fc: XXX
+    NO SEGREGATION
+    Rewards = +/- 100
+    
+BASE_0Fd: 
+    NO SEGREGATION
+    Rewards = +/- 50
+    
+BASE_0Fe: 
+    NO SEGREGATION
+    Rewards = +/- 20
