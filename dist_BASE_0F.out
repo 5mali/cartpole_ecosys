@@ -557,3 +557,144 @@ slurmstepd-knm004: error: Job 169479 hit memory limit at least once during execu
 slurmstepd-knm000: error: Job 169420 hit memory limit at least once during execution. This may or may not result in some failure.
 srun: error: knm000: task 0: Out Of Memory
 slurmstepd-knm000: error: Job 169420 hit memory limit at least once during execution. This may or may not result in some failure.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm001: error: *** STEP 169412.0 ON knm001 CANCELLED AT 2019-04-12T20:38:26 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: *** JOB 169415 ON knm001 CANCELLED AT 2019-04-12T20:38:26 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm001: error: *** JOB 169411 ON knm001 CANCELLED AT 2019-04-12T20:38:26 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: *** JOB 169412 ON knm001 CANCELLED AT 2019-04-12T20:38:26 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: *** STEP 169411.0 ON knm001 CANCELLED AT 2019-04-12T20:38:26 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: *** STEP 169415.0 ON knm001 CANCELLED AT 2019-04-12T20:38:26 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: Job 169415 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm001: error: Job 169411 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm001: error: Job 169412 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm001: error: Job 169412 hit memory limit at least once during execution. This may or may not result in some failure.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm001: error: *** JOB 169421 ON knm001 CANCELLED AT 2019-04-12T20:39:26 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: *** STEP 169421.0 ON knm001 CANCELLED AT 2019-04-12T20:39:26 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: *** JOB 169422 ON knm001 CANCELLED AT 2019-04-12T20:39:26 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm001: error: *** STEP 169422.0 ON knm001 CANCELLED AT 2019-04-12T20:39:26 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm001: error: *** STEP 169424.0 ON knm001 CANCELLED AT 2019-04-12T20:39:26 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: *** JOB 169424 ON knm001 CANCELLED AT 2019-04-12T20:39:26 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: *** STEP 169425.0 ON knm001 CANCELLED AT 2019-04-12T20:39:26 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: *** JOB 169425 ON knm001 CANCELLED AT 2019-04-12T20:39:26 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm001: error: Job 169421 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm001: error: Job 169422 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm001: error: Job 169424 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm001: error: Job 169425 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm001: error: Job 169422 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm001: error: Job 169425 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm001: error: Job 169421 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm001: error: Job 169424 hit memory limit at least once during execution. This may or may not result in some failure.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm001: error: *** STEP 169428.0 ON knm001 CANCELLED AT 2019-04-12T20:39:56 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: *** JOB 169428 ON knm001 CANCELLED AT 2019-04-12T20:39:56 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm001: error: *** JOB 169431 ON knm001 CANCELLED AT 2019-04-12T20:39:56 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: *** STEP 169431.0 ON knm001 CANCELLED AT 2019-04-12T20:39:56 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm001: error: *** STEP 169432.0 ON knm001 CANCELLED AT 2019-04-12T20:39:56 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: *** JOB 169432 ON knm001 CANCELLED AT 2019-04-12T20:39:56 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: Job 169428 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm001: error: Job 169431 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm001: error: Job 169432 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm001: error: Job 169428 hit memory limit at least once during execution. This may or may not result in some failure.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm001: error: *** STEP 169433.0 ON knm001 CANCELLED AT 2019-04-12T20:40:56 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: *** JOB 169433 ON knm001 CANCELLED AT 2019-04-12T20:40:56 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: *** JOB 169434 ON knm002 CANCELLED AT 2019-04-12T20:40:56 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm002: error: *** STEP 169434.0 ON knm002 CANCELLED AT 2019-04-12T20:40:56 DUE TO TIME LIMIT ***
+slurmstepd-knm001: error: Job 169433 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm002: error: Job 169434 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm001: error: Job 169433 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm002: error: Job 169434 hit memory limit at least once during execution. This may or may not result in some failure.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm002: error: *** STEP 169437.0 ON knm002 CANCELLED AT 2019-04-12T20:41:26 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: *** JOB 169437 ON knm002 CANCELLED AT 2019-04-12T20:41:26 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm002: error: *** STEP 169438.0 ON knm002 CANCELLED AT 2019-04-12T20:41:26 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: *** JOB 169438 ON knm002 CANCELLED AT 2019-04-12T20:41:26 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm002: error: *** JOB 169440 ON knm002 CANCELLED AT 2019-04-12T20:41:26 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: *** STEP 169440.0 ON knm002 CANCELLED AT 2019-04-12T20:41:26 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm002: error: *** JOB 169441 ON knm002 CANCELLED AT 2019-04-12T20:41:26 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: Job 169437 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm002: error: *** STEP 169441.0 ON knm002 CANCELLED AT 2019-04-12T20:41:26 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: Job 169438 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm002: error: Job 169440 hit memory limit at least once during execution. This may or may not result in some failure.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm002: error: *** JOB 169443 ON knm002 CANCELLED AT 2019-04-12T20:41:26 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: *** STEP 169443.0 ON knm002 CANCELLED AT 2019-04-12T20:41:26 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: Job 169441 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm002: error: Job 169443 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm002: error: Job 169437 hit memory limit at least once during execution. This may or may not result in some failure.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm002: error: *** JOB 169446 ON knm002 CANCELLED AT 2019-04-12T20:41:56 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: *** STEP 169446.0 ON knm002 CANCELLED AT 2019-04-12T20:41:56 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm002: error: *** STEP 169449.0 ON knm002 CANCELLED AT 2019-04-12T20:41:56 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: *** JOB 169449 ON knm002 CANCELLED AT 2019-04-12T20:41:56 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: Job 169446 hit memory limit at least once during execution. This may or may not result in some failure.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm002: error: *** STEP 169450.0 ON knm002 CANCELLED AT 2019-04-12T20:41:56 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: *** JOB 169450 ON knm002 CANCELLED AT 2019-04-12T20:41:56 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm002: error: *** JOB 169451 ON knm002 CANCELLED AT 2019-04-12T20:41:56 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: *** STEP 169451.0 ON knm002 CANCELLED AT 2019-04-12T20:41:56 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: Job 169449 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm002: error: Job 169450 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm002: error: Job 169451 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm003: error: *** JOB 169461 ON knm003 CANCELLED AT 2019-04-12T20:43:26 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm003: error: *** JOB 169463 ON knm003 CANCELLED AT 2019-04-12T20:43:26 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: *** STEP 169461.0 ON knm003 CANCELLED AT 2019-04-12T20:43:26 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: *** STEP 169463.0 ON knm003 CANCELLED AT 2019-04-12T20:43:26 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: Job 169463 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm003: error: Job 169461 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm003: error: Job 169461 hit memory limit at least once during execution. This may or may not result in some failure.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm003: error: *** STEP 169465.0 ON knm003 CANCELLED AT 2019-04-12T20:43:56 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: *** JOB 169465 ON knm003 CANCELLED AT 2019-04-12T20:43:56 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: *** JOB 169466 ON knm003 CANCELLED AT 2019-04-12T20:43:56 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm003: error: *** STEP 169466.0 ON knm003 CANCELLED AT 2019-04-12T20:43:56 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm003: error: *** STEP 169467.0 ON knm003 CANCELLED AT 2019-04-12T20:43:56 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: *** JOB 169467 ON knm003 CANCELLED AT 2019-04-12T20:43:56 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm003: error: *** JOB 169469 ON knm003 CANCELLED AT 2019-04-12T20:43:56 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: *** STEP 169469.0 ON knm003 CANCELLED AT 2019-04-12T20:43:56 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: Job 169465 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm003: error: Job 169466 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm003: error: Job 169467 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm003: error: Job 169466 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm003: error: Job 169469 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm003: error: Job 169465 hit memory limit at least once during execution. This may or may not result in some failure.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm003: error: *** JOB 169472 ON knm003 CANCELLED AT 2019-04-12T20:44:56 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: *** STEP 169472.0 ON knm003 CANCELLED AT 2019-04-12T20:44:56 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm003: error: *** JOB 169473 ON knm003 CANCELLED AT 2019-04-12T20:44:56 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: *** STEP 169473.0 ON knm003 CANCELLED AT 2019-04-12T20:44:56 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm003: error: *** JOB 169474 ON knm003 CANCELLED AT 2019-04-12T20:44:56 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: Job 169472 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm003: error: *** STEP 169474.0 ON knm003 CANCELLED AT 2019-04-12T20:44:56 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm003: error: Job 169473 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm003: error: *** STEP 169476.0 ON knm003 CANCELLED AT 2019-04-12T20:44:56 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: *** JOB 169476 ON knm003 CANCELLED AT 2019-04-12T20:44:56 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: Job 169474 hit memory limit at least once during execution. This may or may not result in some failure.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm003: error: *** STEP 169477.0 ON knm003 CANCELLED AT 2019-04-12T20:44:57 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: *** JOB 169477 ON knm003 CANCELLED AT 2019-04-12T20:44:57 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: Job 169476 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm003: error: Job 169477 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm003: error: Job 169472 hit memory limit at least once during execution. This may or may not result in some failure.

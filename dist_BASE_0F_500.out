@@ -122,3 +122,12 @@ slurmstepd-p107: error: Step 169524.0 hit memory limit at least once during exec
 slurmstepd-p107: error: Job 169524 hit memory limit at least once during execution. This may or may not result in some failure.
 srun: error: p107: task 0: Out Of Memory
 slurmstepd-p107: error: Job 169524 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm003: error: *** JOB 169486 ON knm003 CANCELLED AT 2019-04-12T20:53:56 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: *** JOB 169490 ON knm002 CANCELLED AT 2019-04-12T20:53:56 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-knm003: error: *** STEP 169486.0 ON knm003 CANCELLED AT 2019-04-12T20:53:56 DUE TO TIME LIMIT ***
+slurmstepd-knm002: error: *** STEP 169490.0 ON knm002 CANCELLED AT 2019-04-12T20:53:56 DUE TO TIME LIMIT ***
+slurmstepd-knm003: error: Job 169486 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm002: error: Job 169490 hit memory limit at least once during execution. This may or may not result in some failure.
+slurmstepd-knm003: error: Job 169486 hit memory limit at least once during execution. This may or may not result in some failure.
