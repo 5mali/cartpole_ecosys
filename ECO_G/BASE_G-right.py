@@ -122,10 +122,10 @@ class D3QN(object):
         if np.random.uniform() < EPSILON:   # greedy
             actions_value = self.eval_net.forward(x)
             action = torch.max(actions_value, 1)[1].data.numpy()
-            action = 1#action[0] if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)  # return the argmax index
+            action = action[0] if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)  # return the argmax index
         else:   # random
             action = np.random.randint(0, N_ACTIONS)
-            action = action if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)
+            action = 1#action if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)
         return action
     
     def choose_greedy_action(self, x):
