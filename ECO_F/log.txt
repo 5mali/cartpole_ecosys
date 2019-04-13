@@ -1,3 +1,13 @@
+dist_BASE_0F_uniform:
+    NO action bias - 
+    TARGET_REPLACE = 200
+    NN_LR = 1e-4
+    10Nx100ep
+    MIN_MEM_CAP = 300,000
+    NN_ITER = 15,000
+    NO SEGREGATION
+    REWARDS = +/- 10
+    
 dist_BASE_0Fb:
     TARGET_REPLACE = 500
     NN_LR = 1e-4
