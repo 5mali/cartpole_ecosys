@@ -1,0 +1,2 @@
+/home/shaswot/anaconda3/envs/eno/bin/python: can't open file './HARD_G0-MA_explore.py': [Errno 2] No such file or directory
+srun: error: knm000: task 0: Exited with exit code 2
