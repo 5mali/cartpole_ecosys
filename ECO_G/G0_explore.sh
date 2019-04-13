@@ -2,7 +2,7 @@
 
 #SBATCH --job-name=G0_explore
 #SBATCH --output=G0_explore.out
-#SBATCH -p knm 
+##SBATCH -p knm 
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH --cpus-per-task=12

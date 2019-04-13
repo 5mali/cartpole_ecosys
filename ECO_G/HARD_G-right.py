@@ -133,7 +133,7 @@ class D3QN(object):
         # input only one sample
         actions_value = self.eval_net.forward(x)
         action = torch.max(actions_value, 1)[1].data.numpy()
-        action = 1#action[0] if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)  # return the argmax index
+        action = action[0] if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)  # return the argmax index
         return action
 
     def store_transition(self, s, a, r, s_):
